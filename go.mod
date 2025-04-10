@@ -2,6 +2,8 @@ module github.com/AaronLieb/goat
 
 go 1.23.2
 
+godebug tlsmlkem=0
+
 require (
 	github.com/aws/aws-sdk-go-v2 v1.32.2
 	github.com/aws/aws-sdk-go-v2/config v1.28.0
